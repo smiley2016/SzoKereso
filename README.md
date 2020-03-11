@@ -10,15 +10,15 @@ C:> java "Adott mappa amiben a fajlok vannak".Main "Adott metodus számerteke am
 
 Pl.
 
-C:> java Boggle.Main 1 __
-C:> java Boggle.Main 2 __
+C:> java Boggle.Main 1 <br />
+C:> java Boggle.Main 2 <br />
 
 Dictionary : "GEEKS", "FOR", "QUIZ", "GEE"
 
 MATRIX
 
-[G I Z] __
-[U E K] __
+[G I Z] <br/>
+[U E K] <br/>
 [Q S E]
 
 VÁLTOZOK: A szavak. Esetünkben ( Pl. V1 = GEEKS, V2=FOR, V3=QUIZ, ...) DOMÉNIUM: A mátrix betűi CONSTRAINTS: Ha a V1 első karakterét megkaptuk a mátrixban, akkor a V4 változónak nem marad G betű a mátrixban, tehát megváltozik a V4 doméniuma. Így már csak a két darab E betü marad a doméniumában.
@@ -33,4 +33,7 @@ Ck: Dk = D0 - (D1 U D2 U ... U Dn-1 U Dn - Dk) | k<=n, k, n e N
 
 V = { V1, V2,.. Vn } e Szótár
 
-pl. A válasz az adott példára QUIZ, GEE Különböző módszerek segítségével sokkal kevesebb lépés szám után lefut a program BT - 24 lepes BT + MRV + FORWARD CHECK 13 lepes BT + MRV + AC-3 18 lepes
+pl. A válasz az adott példára QUIZ, GEE Különböző módszerek segítségével sokkal kevesebb lépés szám után lefut a program <br /> 
+BT - 24 lepes <br />
+BT + MRV + FORWARD CHECK 13 lepes <br />
+BT + MRV + AC-3 18 lepes
