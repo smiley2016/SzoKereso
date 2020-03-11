@@ -1,0 +1,13 @@
+3
+FOR QUIZ GEEKS GEE
+G,I,Z
+U,E,K
+Q,S,E
+G 1
+I 1
+Z 1
+U 1
+E 2
+K 1
+Q 1
+S 1
